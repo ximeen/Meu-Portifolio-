@@ -10,6 +10,28 @@
   padding: 0;
 }
 
+.hamburguer {
+  background-color: #7F00FF;
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  z-index: 100;
+
+  right: 1.7rem;
+  top: 1.7rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.line {
+  width: 100%;
+  height: .1rem;
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 2px #000;
+}
+
 /*  FORMATAÇÃO DA IMAGEM DO HEADER */
 header {
   width: 100%;
@@ -89,10 +111,6 @@ header {
   animation: MoveBanner 1s 0.9s forwards;
   opacity: 0;
 
-}
-/* ANIMAÇÃO DO HOVER DO BUTTON */
-.banner button:hover {
-  transform: scale(1.1);
 }
 
 /* KEY FRAMES */

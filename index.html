@@ -6,9 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- IMPORT DOS FAVICO
      -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/Img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/Img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/Img/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/Img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/Img/favicon-16x16.png"
+    />
     <link rel="manifest" href="/Img/site.webmanifest" />
 
     <link rel="stylesheet" href="/Styles/styles.css" />
@@ -17,19 +31,41 @@
   <body>
     <!-- HEADER  -->
     <div class="container">
+      <div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+      </div>
+
       <header>
-
         <div class="img-wrapper">
-
-          <img src="/Img/bg.jpg" alt="Imagen de fundo">
+          <img src="/Img/bg.jpg" alt="Imagen de fundo" />
         </div>
 
         <div class="banner">
-          <h1> Web developer & Front-End </h1>
-          <p> Gabriel dos Santos Ximenes Ferreria </p>
-          <button> Saiba mais </button>
+          <h1>Web developer & Front-End</h1>
+          <p>Gabriel dos Santos Ximenes Ferreria</p>
+          <button>Saiba mais</button>
         </div>
       </header>
+
+      <div class="sideBar">
+        <nav>
+          <ul class="menu">
+            <li class="menuItem"><a href="#" class="menuLink">Home</a></li>
+            <li class="menuItem">
+              <a href="#" class="menuLink">Conhecimentos</a>
+            </li>
+            <li class="menuItem"><a href="#" class="menuLink">Projetos</a></li>
+            <li class="menuItem"><a href="#" class="menuLink">Contatos</a></li>
+            <li class="menuItem"><a href="#" class="menuLink">Orçamento</a></li>
+          </ul>
+        </nav>
+        <div class="SocialMedia">
+          <a href="https://github.com/Monge1331" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/biel.ximenes13/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
     </div>
     <!-- END HEADER -->
   </body>

@@ -8,5 +8,5 @@ Meu portfólio de desenvolvedor
 
 :package: Nova funcionalidade
 :up: Atualização
-:beatle: Correção de bugs
+:bug: Correção de bugs
 :checkered_flag: release
