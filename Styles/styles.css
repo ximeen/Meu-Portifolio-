@@ -59,9 +59,9 @@ html {
 
 }
 
-.ShowMenu .hamburguer {
+/* .ShowMenu .hamburguer {
   right: 16rem;
-}
+} */
 
 .line {
   width: 100%;
@@ -127,7 +127,7 @@ html {
   position: fixed;
   top: 0;
   right: -20rem;
-
+  z-index: 90;
   transition: all .5s ease;
 }
 
@@ -393,9 +393,14 @@ header {
 
 /* -------- PROJETOS --------- */
 
+
+
 .Projetos {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 4rem;
+
+
 }
 
 .card {
@@ -454,6 +459,20 @@ header {
   margin-bottom: 2rem;
 }
 
+.ButtonGlobal{
+
+  border: none;
+  border-radius: 0.5rem;
+
+  font-family: var(--font-action);
+
+  box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+  color: #eee;
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+  background: #C9D6FF;
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+}
+
 .CardInfo button {
   width: 8rem;
   height: 2.5rem;
@@ -483,5 +502,178 @@ header {
 }
 
 .card:hover .CardImg {
+  transition: filter .5s;
   filter: brightness(40%);
+}
+
+
+/* SESSÃO DE CONTATOS */
+
+.SecContato {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContatoWrapper {
+  width: 60%;
+  height: 35rem;
+  display: flex;
+
+  box-shadow: 0 2rem 3rem rgba(0,0,0,.5);
+}
+
+.ContatoLeft{
+  width: 35%;
+  background: linear-gradient(rgba(15,15,15,0.6), rgba(22,22,22,0.9)),
+  url(/Img/contato.jpg);
+  background-size: cover;
+}
+
+.ContatoRight{
+  width: 65%;
+  background-color:#eee;
+  padding: 1rem 3rem 3rem 3rem;
+}
+
+.SecContato h1 {
+  width: 100%;
+  text-align: center;
+
+  font-family: var(--font-primary);
+  color: #272727;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.SecContato form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.Field {
+  background: transparent;
+  border: none;
+  width: 20rem;
+  margin: 2rem 0;
+
+  font-family: var(--font-secundary);
+  font-size: 1.5rem;
+
+  border-bottom: 2px dashed #636363;
+  height: 3rem;
+  outline: none;
+
+
+}
+
+.InputGrup {
+  position: relative;
+}
+
+.InputGrup textarea{
+  padding-top: 1rem;
+  max-width: 20rem;
+  max-height: 3rem;
+}
+ 
+.FieldLabel {
+  position: absolute;
+  left: 0;
+  top: 2rem;
+  font-size: 1.2rem;
+  font-family: var(--font-secundary);
+  text-transform: uppercase;
+
+  transition: all .4s ease;
+
+}
+
+.Field:focus ~label {
+  top: 0;
+  font-size: .9rem;
+}
+
+.Field:focus {
+  border-bottom: 1px solid;
+}
+
+.ButtonSubmit {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  width: 90%;
+  height: 3rem;
+  cursor: pointer;
+  transition: all .3s ease;
+
+  background: #7F00FF;
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+  background: linear-gradient(to left, #E100FF, #7F00FF);
+}
+
+.ButtonSubmit:hover{
+  transform: scale(1.1);
+}
+
+footer{
+  width: 100%;
+  height: 6rem;
+  background-color: #eee;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content{
+  width: 60%;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.Content p {
+  font-family: var(--font-secundary);
+  color: #444;
+  font-size: 1.2rem;
+}
+
+.SocialList a {
+  margin: 0 2rem;
+  color: #444;
+  font-size: 1.7rem;
+}
+
+
+.SocialList ul {
+  display: flex;
+}
+
+
+#TopLink {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+
+  background: #7F00FF;
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+  background: linear-gradient(to left, #E100FF, #7F00FF);
+  color: #fff;
+
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+  border-radius: .7rem;
+
+  box-shadow: 0 0 .1rem 0.6rem #00000009;
 }
