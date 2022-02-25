@@ -11,3 +11,13 @@ Meu portfólio de desenvolvedor
  - :up: Atualização
  - :beetle: Correção de bugs
  - :checkered_flag: release
+
+
+
+![Home page do meu portfólio](/Img/Homepage.png)
+
+## Este é parte dos meus conhecimentos de algumas técnologias.
+
+![Esta é a parte de meus conhecimentos!](/Img/Conhecimentos.png)
+
+![Projetos que já realizei](/Img/Projetos.png)
