@@ -19,7 +19,7 @@ Meu portfólio de desenvolvedor
 ![Home page do meu portfólio](/Img/Homepage.png)
 
 ##
-## Este é parte dos meus conhecimentos de algumas técnologias.
+## Sobre meus conhecimentos.
 
 ![Esta é a parte de meus conhecimentos!](/Img/Conhecimentos.png)
 
