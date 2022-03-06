@@ -269,6 +269,10 @@ header {
 
 }
 
+.banner button a {
+  color: #fff;
+}
+
 /* KEY FRAMES */
 
 @keyframes zoom {
